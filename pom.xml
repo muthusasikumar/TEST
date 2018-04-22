@@ -15,4 +15,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  <repository>
+  <id>maven-releases</id>
+  <url>http://localhost:8081/repository/maven-releases/</url>
+ <!-- <username>admin</username>
+  <password>admin123</password>-->
+  </repository>
+  </distributionManagement>
 </project>
